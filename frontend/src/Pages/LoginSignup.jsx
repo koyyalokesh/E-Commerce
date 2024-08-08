@@ -12,7 +12,7 @@ const LoginSignup = () => {
 
   const login = async () => {
     let dataObj;
-    await fetch('http://localhost:5000/login', {
+    await fetch('https://e-commerce-backend-d7tr.onrender.com/login', {
       method: 'POST',
       headers: {
         Accept:'application/form-data',
@@ -35,7 +35,7 @@ const LoginSignup = () => {
 
   const signup = async () => {
     let dataObj;
-    await fetch('http://localhost:5000/signup', {
+    await fetch('https://e-commerce-backend-d7tr.onrender.com/signup', {
       method: 'POST',
       headers: {
         Accept:'application/form-data',
