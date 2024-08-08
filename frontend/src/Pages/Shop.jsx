@@ -14,7 +14,7 @@ const Shop = () => {
     fetch('http://localhost:5000/popularinmen') 
             .then((res) => res.json()) 
             .then((data) => setPopular(data))
-    fetch('http://localhost:5000/newcollections') 
+    fetch('https://e-commerce-backend-d7tr.onrender.com/newcollections') 
             .then((res) => res.json()) 
             .then((data) => setNewCollection(data))
     }
