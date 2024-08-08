@@ -11,7 +11,7 @@ const Shop = () => {
   const [newcollection, setNewCollection] = useState([]);
 
   const fetchInfo = () => { 
-    fetch('http://localhost:5000/popularinmen') 
+    fetch('https://e-commerce-backend-d7tr.onrender.com/popularinmen') 
             .then((res) => res.json()) 
             .then((data) => setPopular(data))
     fetch('https://e-commerce-backend-d7tr.onrender.com/newcollections') 
